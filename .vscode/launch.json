@@ -13,6 +13,17 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "sample_week2.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "sample_week2.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url", 
+                "https://s3.amazonaws.com/cuny-is211-spring2015/birthdays100.csv"
+            ]
+        },
+        {
             "name": "Python Debugger: sample_week1.py",
             "type": "debugpy",
             "request": "launch",

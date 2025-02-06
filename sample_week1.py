@@ -1,6 +1,7 @@
 
 def main():
-    print("this is the main function...")
+    for i in range(10):
+        print(f"{i}")
 
 if __name__ == "__main__":
     main()
